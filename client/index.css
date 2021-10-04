@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap");
+:root {
+  --primary-color: rgb(88, 177, 255);
+}
+
+body {
+  background: #e1f1ff;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: aliceblue;
+  padding: 1em;
+  height: 5em;
+  padding-bottom: 0;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.5em;
+}
+
+.navbar .container .logo {
+  text-decoration: none;
+  color: black;
+  font-size: 2.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.navbar .container .logo span {
+  color: var(--primary-color);
+}
+
+.navbar .container ul.primary-nav {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  padding-left: 10em;
+  width: 85%;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.navbar .container ul.primary-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .container ul.secondary-nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+  padding-right: 2em;
+  margin: 0;
+}
+
+.navbar .container ul.secondary-nav #insta-logo {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+
+.navbar .container ul.secondary-nav #fb-logo {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+
+.navbar .container ul.secondary-nav #spot-logo {
+  height: 1.75em;
+  width: 1.75em;
+  cursor: pointer;
+}
+
+section.hero .container h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.hero .container h1 span#average {
+  color: orange;
+}
+
+section.hero .container .hero-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 66%;
+  margin-left: 15em;
+  margin-right: 20em;
+}
+
+section.hero .container .button {
+  height: 4em;
+  padding: 1em;
+  border-radius: 5em;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 1em;
+  border: 0;
+}
+
+section.hero .container .button:hover {
+  background: aliceblue;
+  color: black;
+}
+
+section.hero .container .sub-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.hero .container .video-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.hero .container .video-cta #vid-text {
+  width: 66%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 42.5%;
+  padding-right: 42.5%;
+  text-decoration: none;
+  color: black;
+}
+
+section.hero .container .video-cta #vid-text #video-icon {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+section.hero .home-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100%;
+}
+
+.con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5em;
+}
+
+.contact-background-image {
+  width: 50%;
+  height: 75%;
+}
+
+.superman {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.superman #super-j {
+  height: 15em;
+}
+
+.about-h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-h1 span.freaking {
+  color: orange;
+}
+/*# sourceMappingURL=index.css.map */

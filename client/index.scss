@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap");
+
+:root {
+  --primary-color: rgb(88, 177, 255);
+}
+
+body {
+  background: rgb(225, 241, 255);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: aliceblue;
+  padding: 1em;
+  height: 5em;
+  padding-bottom: 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5em;
+
+    .logo {
+      text-decoration: none;
+      color: black;
+      font-size: 2.7em;
+      display: flex;
+      justify-content: left;
+
+      span {
+        color: var(--primary-color);
+      }
+    }
+    ul.primary-nav {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      padding-left: 10em;
+      width: 85%;
+      padding-bottom: 0;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    ul.secondary-nav {
+      list-style: none;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 20%;
+      padding-right: 2em;
+      margin: 0;
+
+      #insta-logo {
+        height: 2em;
+        width: 2em;
+        cursor: pointer;
+      }
+
+      #fb-logo {
+        height: 2em;
+        width: 2em;
+        cursor: pointer;
+      }
+
+      #spot-logo {
+        height: 1.75em;
+        width: 1.75em;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+section.hero {
+  .container {
+    h1 {
+      display: flex;
+      justify-content: center;
+
+      span#average {
+        color: orange;
+      }
+    }
+    .hero-cta {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+      width: 66%;
+      margin-left: 15em;
+      margin-right: 20em;
+      // border: solid;
+    }
+
+    .button {
+      height: 4em;
+      padding: 1em;
+      border-radius: 5em;
+      cursor: pointer;
+      background: var(--primary-color);
+      color: rgb(230, 230, 230);
+      font-weight: bold;
+      font-size: 1em;
+      border: 0;
+
+      &:hover {
+        background: aliceblue;
+        color: black;
+      }
+    }
+
+    .sub-head {
+      display: flex;
+      justify-content: center;
+      // border: solid;
+    }
+
+    .video-cta {
+      display: flex;
+      justify-content: center;
+      // border: solid;
+
+      #vid-text {
+        width: 66%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 42.5%;
+        padding-right: 42.5%;
+        text-decoration: none;
+        color: black;
+
+        #video-icon {
+          height: 2.5em;
+          width: 2.5em;
+        }
+      }
+    }
+  }
+  .home-pic {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    // border: solid;
+  }
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.contact-background-image {
+    width: 50%;
+    height: 75%;
+}
+
+.superman {
+  display: flex;
+  justify-content: center;
+  // padding-top: 1.5em;
+
+  #super-j {
+    height: 15em;
+  }
+}
+
+.about-h1 {
+  display: flex;
+  justify-content: center;
+
+  span.freaking {
+    color: orange;
+  }
+}
