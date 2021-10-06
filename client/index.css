@@ -65,6 +65,10 @@ body {
   color: black;
 }
 
+.navbar .container ul.primary-nav a:hover {
+  color: var(--primary-color);
+}
+
 .navbar .container ul.secondary-nav {
   list-style: none;
   display: -webkit-box;
@@ -238,6 +242,10 @@ section.hero .home-pic {
   color: black;
 }
 
+.footer .footer-navbar .footer-container ul.footer-primary-nav a:hover {
+  color: var(--primary-color);
+}
+
 .footer .footer-navbar .footer-container .footer-input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +270,12 @@ section.hero .home-pic {
   border-radius: .25em;
   width: 60%;
   margin-left: 17.5%;
+  cursor: pointer;
+}
+
+.footer .footer-navbar .footer-container .footer-input #submit-button:hover {
+  background: aliceblue;
+  color: black;
 }
 
 .footer .footer-navbar .footer-container ul.footer-secondary-nav {
@@ -345,6 +359,14 @@ section.hero .home-pic {
 
 .about-h1 span.freaking {
   color: orange;
+}
+
+.about-h1 span.freaking:hover {
+  color: var(--primary-color);
+}
+
+.about-h1 a {
+  text-decoration: none;
 }
 
 .container1 {
@@ -431,6 +453,10 @@ section.hero .home-pic {
   color: orange;
 }
 
+.product-container span:hover {
+  color: var(--primary-color);
+}
+
 .product-container a {
   text-decoration: none;
 }
@@ -469,5 +495,11 @@ section.hero .home-pic {
   border-radius: 0.25em;
   border: 1px;
   margin-left: .15em;
+  cursor: pointer;
+}
+
+.product-container .review-input #submit-btn:hover {
+  background: aliceblue;
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */

@@ -46,6 +46,10 @@ body {
       a {
         text-decoration: none;
         color: black;
+        
+        &:hover{
+          color: var(--primary-color)
+        }
       }
     }
     ul.secondary-nav {
@@ -178,6 +182,10 @@ section.hero {
         a {
           text-decoration: none;
           color: black;
+
+          &:hover {
+            color: var(--primary-color);
+          }
         }
       }
       .footer-input {
@@ -197,6 +205,12 @@ section.hero {
           border-radius: .25em;
           width: 60%;
           margin-left: 17.5%;
+          cursor: pointer;
+
+          &:hover {
+            background: aliceblue;
+            color: black;
+          }
         }
       }
       ul.footer-secondary-nav {
@@ -265,7 +279,15 @@ section.hero {
 
   span.freaking {
     color: orange;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+    
   }
+  a {
+      text-decoration: none;
+    }
 }
 
 .container1 {
@@ -342,10 +364,16 @@ section.hero {
 
   span {
     color: orange;
+
+    &:hover {
+      color: var(--primary-color);
+    }
   }
 
   a {
     text-decoration: none;
+
+   
   }
   .club {
     display: flex;
@@ -367,6 +395,12 @@ section.hero {
       border-radius: 0.25em;
       border: 1px;
       margin-left: .15em;
+      cursor: pointer;
+
+      &:hover {
+        background: aliceblue;
+        color: black;
+      }
     }
   }
 }
