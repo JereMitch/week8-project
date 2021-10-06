@@ -45,6 +45,10 @@ body {
   color: var(--primary-color);
 }
 
+.navbar .container .logo span:hover {
+  color: orange;
+}
+
 .navbar .container ul.primary-nav {
   list-style-type: none;
   display: -webkit-box;
@@ -216,6 +220,10 @@ section.hero .home-pic {
 
 .footer .footer-navbar .footer-container .footer-logo span {
   color: var(--primary-color);
+}
+
+.footer .footer-navbar .footer-container .footer-logo span:hover {
+  color: orange;
 }
 
 .footer .footer-navbar .footer-container ul.footer-primary-nav {
