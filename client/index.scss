@@ -56,10 +56,12 @@ body {
       width: 20%;
       padding-right: 2em;
       margin: 0;
+      margin-top: 15px;
 
       #insta-logo {
         height: 2em;
         width: 2em;
+        // margin-top: 2px;
         cursor: pointer;
       }
 
@@ -70,8 +72,9 @@ body {
       }
 
       #spot-logo {
-        height: 1.75em;
-        width: 1.75em;
+        height: 1.5em;
+        width: 1.5em;
+        margin-bottom: 4px;
         cursor: pointer;
       }
     }
@@ -100,6 +103,7 @@ section.hero {
 
     .button {
       height: 4em;
+      width: 15em;
       padding: 1em;
       border-radius: 5em;
       cursor: pointer;
@@ -122,25 +126,8 @@ section.hero {
     }
 
     .video-cta {
-      display: flex;
-      justify-content: center;
-      // border: solid;
-
-      #vid-text {
-        width: 66%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 42.5%;
-        padding-right: 42.5%;
-        text-decoration: none;
-        color: black;
-
-        #video-icon {
-          height: 2.5em;
-          width: 2.5em;
-        }
-      }
+      padding-left: 4.5em;
+      padding-bottom: 2em;
     }
   }
   .home-pic {
@@ -152,14 +139,114 @@ section.hero {
   }
 }
 
+.footer {
+  background: rgb(208, 233, 255);
+  margin: 0;
+  height: 10em;
+
+  .footer-navbar {
+    padding: 1em;
+    padding-bottom: 0;
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 1.5em;
+
+      .footer-logo {
+        text-decoration: none;
+        color: black;
+        font-size: 2.3em;
+        display: flex;
+        justify-content: left;
+
+        span {
+          color: var(--primary-color);
+        }
+      }
+
+      ul.footer-primary-nav {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 1rem;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      .footer-input {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          display: block;
+        }
+
+        #email {
+          margin-bottom: 0.5em;
+        }
+        #submit-button {
+          background-color: var(--primary-color);
+          border: 1px;
+          border-radius: .25em;
+          width: 60%;
+          margin-left: 17.5%;
+        }
+      }
+      ul.footer-secondary-nav {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+        padding-right: 2em;
+        padding-top: 1.5em;
+        margin: 0;
+        margin-top: 15px;
+
+        label {
+          display: block;
+        }
+
+        #footer-insta-logo {
+          height: 4em;
+          width: 4em;
+          // margin-top: 2px;
+          cursor: pointer;
+        }
+
+        #footer-fb-logo {
+          height: 4em;
+          width: 4em;
+          cursor: pointer;
+        }
+
+        #footer-spot-logo {
+          height: 3em;
+          width: 3em;
+          margin-bottom: 4px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
 .con {
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  padding-bottom: 5em;
 }
 .contact-background-image {
-    width: 50%;
-    height: 75%;
+  width: 50%;
+  height: 75%;
 }
 
 .superman {
@@ -178,5 +265,108 @@ section.hero {
 
   span.freaking {
     color: orange;
+  }
+}
+
+.container1 {
+  // border: solid;
+  margin: 0;
+  padding-bottom: 2em;
+
+  #intro {
+    // border: solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  #child {
+    // border:solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 25%;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  #hobby {
+    // border:solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 25%;
+    padding-bottom: 0.5em;
+  }
+
+  #left-playlist {
+    // border: solid;
+    width: 20%;
+    height: 57%;
+    padding-left: 2em;
+    position: absolute;
+    top: 20em;
+  }
+
+  #right-playlist {
+    // border: solid;
+    width: 20%;
+    height: 57%;
+    padding-right: 2em;
+    position: absolute;
+    top: 20em;
+    right: 0;
+  }
+}
+
+.product-container {
+  padding-bottom: 1.2em;
+  .club-pic {
+    height: 8em;
+    width: 8em;
+    padding-bottom: 0.75em;
+  }
+
+  p {
+    width: 75%;
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 1.816em;
+    margin-top: 1.25em;
+  }
+
+  span {
+    color: orange;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .club {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin-left: 4em;
+    padding-top: 1.2em;
+  }
+
+  .review-input {
+    display: flex;
+    justify-content: center;
+
+    #submit-btn {
+      background: var(--primary-color);
+      color: white;
+      border-radius: 0.25em;
+      border: 1px;
+      margin-left: .15em;
+    }
   }
 }
